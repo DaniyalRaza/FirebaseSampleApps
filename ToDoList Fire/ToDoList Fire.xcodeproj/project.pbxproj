@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D635EEB1AD7FD92005B3EFF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D635EEA1AD7FD92005B3EFF /* SystemConfiguration.framework */; };
+		2D9F534E1ADBF31C000AB935 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9F534D1ADBF31C000AB935 /* LoginViewController.swift */; };
+		2D9F53501ADBF3B3000AB935 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9F534F1ADBF3B3000AB935 /* SignupViewController.swift */; };
+		2DAB0E4B1A88D1610032FA45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAB0E4A1A88D1610032FA45 /* AppDelegate.swift */; };
+		2DAB0E4E1A88D1610032FA45 /* ToDoList_Fire.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2DAB0E4C1A88D1610032FA45 /* ToDoList_Fire.xcdatamodeld */; };
+		2DAB0E531A88D1610032FA45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DAB0E511A88D1610032FA45 /* Main.storyboard */; };
+		2DAB0E551A88D1610032FA45 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DAB0E541A88D1610032FA45 /* Images.xcassets */; };
+		2DAB0E581A88D1610032FA45 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DAB0E561A88D1610032FA45 /* LaunchScreen.xib */; };
+		2DAB0E641A88D1610032FA45 /* ToDoList_FireTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAB0E631A88D1610032FA45 /* ToDoList_FireTests.swift */; };
+		2DAB0E6E1A88D17A0032FA45 /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DAB0E6D1A88D17A0032FA45 /* Firebase.framework */; };
+		2DAB0E701A88D19F0032FA45 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DAB0E6F1A88D19F0032FA45 /* libicucore.dylib */; };
+		2DAB0E721A88D1A80032FA45 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DAB0E711A88D1A80032FA45 /* Security.framework */; };
+		2DAB0E761A88D1C30032FA45 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DAB0E751A88D1C30032FA45 /* libc++.dylib */; };
+		2DAB0E781A88D1CC0032FA45 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DAB0E771A88D1CC0032FA45 /* CFNetwork.framework */; };
+		2DAB0E7D1A88D2FF0032FA45 /* ToDoListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAB0E7C1A88D2FF0032FA45 /* ToDoListTableViewController.swift */; };
+		2DAB0E811A88D4E00032FA45 /* FireBaseSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAB0E801A88D4E00032FA45 /* FireBaseSingleton.swift */; };
+		2DAB0E831A88D59A0032FA45 /* TaskData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAB0E821A88D59A0032FA45 /* TaskData.swift */; };
+		2DAB0E851A88DD330032FA45 /* AddTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAB0E841A88DD330032FA45 /* AddTaskViewController.swift */; };
+		2DAB0E871A88E5670032FA45 /* EditTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAB0E861A88E5670032FA45 /* EditTaskViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2DAB0E5E1A88D1610032FA45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DAB0E3D1A88D1610032FA45 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DAB0E441A88D1610032FA45;
+			remoteInfo = "ToDoList Fire";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2D635EEA1AD7FD92005B3EFF /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		2D9F534D1ADBF31C000AB935 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		2D9F534F1ADBF3B3000AB935 /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		2DAB0E451A88D1610032FA45 /* ToDoList Fire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ToDoList Fire.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DAB0E491A88D1610032FA45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DAB0E4A1A88D1610032FA45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2DAB0E4D1A88D1610032FA45 /* ToDoList_Fire.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ToDoList_Fire.xcdatamodel; sourceTree = "<group>"; };
+		2DAB0E521A88D1610032FA45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2DAB0E541A88D1610032FA45 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2DAB0E571A88D1610032FA45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		2DAB0E5D1A88D1610032FA45 /* ToDoList FireTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ToDoList FireTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DAB0E621A88D1610032FA45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DAB0E631A88D1610032FA45 /* ToDoList_FireTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoList_FireTests.swift; sourceTree = "<group>"; };
+		2DAB0E6D1A88D17A0032FA45 /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Firebase.framework; sourceTree = "<group>"; };
+		2DAB0E6F1A88D19F0032FA45 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		2DAB0E711A88D1A80032FA45 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		2DAB0E751A88D1C30032FA45 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		2DAB0E771A88D1CC0032FA45 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		2DAB0E791A88D2030032FA45 /* ToDoList Fire-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ToDoList Fire-Bridging-Header.h"; sourceTree = "<group>"; };
+		2DAB0E7C1A88D2FF0032FA45 /* ToDoListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoListTableViewController.swift; sourceTree = "<group>"; };
+		2DAB0E801A88D4E00032FA45 /* FireBaseSingleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FireBaseSingleton.swift; sourceTree = "<group>"; };
+		2DAB0E821A88D59A0032FA45 /* TaskData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskData.swift; sourceTree = "<group>"; };
+		2DAB0E841A88DD330032FA45 /* AddTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTaskViewController.swift; sourceTree = "<group>"; };
+		2DAB0E861A88E5670032FA45 /* EditTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditTaskViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2DAB0E421A88D1610032FA45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D635EEB1AD7FD92005B3EFF /* SystemConfiguration.framework in Frameworks */,
+				2DAB0E781A88D1CC0032FA45 /* CFNetwork.framework in Frameworks */,
+				2DAB0E761A88D1C30032FA45 /* libc++.dylib in Frameworks */,
+				2DAB0E721A88D1A80032FA45 /* Security.framework in Frameworks */,
+				2DAB0E701A88D19F0032FA45 /* libicucore.dylib in Frameworks */,
+				2DAB0E6E1A88D17A0032FA45 /* Firebase.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DAB0E5A1A88D1610032FA45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2DAB0E3C1A88D1610032FA45 = {
+			isa = PBXGroup;
+			children = (
+				2D635EEA1AD7FD92005B3EFF /* SystemConfiguration.framework */,
+				2DAB0E771A88D1CC0032FA45 /* CFNetwork.framework */,
+				2DAB0E751A88D1C30032FA45 /* libc++.dylib */,
+				2DAB0E711A88D1A80032FA45 /* Security.framework */,
+				2DAB0E6F1A88D19F0032FA45 /* libicucore.dylib */,
+				2DAB0E6D1A88D17A0032FA45 /* Firebase.framework */,
+				2DAB0E471A88D1610032FA45 /* ToDoList Fire */,
+				2DAB0E601A88D1610032FA45 /* ToDoList FireTests */,
+				2DAB0E461A88D1610032FA45 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2DAB0E461A88D1610032FA45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2DAB0E451A88D1610032FA45 /* ToDoList Fire.app */,
+				2DAB0E5D1A88D1610032FA45 /* ToDoList FireTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2DAB0E471A88D1610032FA45 /* ToDoList Fire */ = {
+			isa = PBXGroup;
+			children = (
+				2DAB0E511A88D1610032FA45 /* Main.storyboard */,
+				2D9F534F1ADBF3B3000AB935 /* SignupViewController.swift */,
+				2D9F534D1ADBF31C000AB935 /* LoginViewController.swift */,
+				2DAB0E821A88D59A0032FA45 /* TaskData.swift */,
+				2DAB0E801A88D4E00032FA45 /* FireBaseSingleton.swift */,
+				2DAB0E4A1A88D1610032FA45 /* AppDelegate.swift */,
+				2DAB0E861A88E5670032FA45 /* EditTaskViewController.swift */,
+				2DAB0E841A88DD330032FA45 /* AddTaskViewController.swift */,
+				2DAB0E7C1A88D2FF0032FA45 /* ToDoListTableViewController.swift */,
+				2DAB0E541A88D1610032FA45 /* Images.xcassets */,
+				2DAB0E561A88D1610032FA45 /* LaunchScreen.xib */,
+				2DAB0E4C1A88D1610032FA45 /* ToDoList_Fire.xcdatamodeld */,
+				2DAB0E481A88D1610032FA45 /* Supporting Files */,
+				2DAB0E791A88D2030032FA45 /* ToDoList Fire-Bridging-Header.h */,
+			);
+			path = "ToDoList Fire";
+			sourceTree = "<group>";
+		};
+		2DAB0E481A88D1610032FA45 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2DAB0E491A88D1610032FA45 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2DAB0E601A88D1610032FA45 /* ToDoList FireTests */ = {
+			isa = PBXGroup;
+			children = (
+				2DAB0E631A88D1610032FA45 /* ToDoList_FireTests.swift */,
+				2DAB0E611A88D1610032FA45 /* Supporting Files */,
+			);
+			path = "ToDoList FireTests";
+			sourceTree = "<group>";
+		};
+		2DAB0E611A88D1610032FA45 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2DAB0E621A88D1610032FA45 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2DAB0E441A88D1610032FA45 /* ToDoList Fire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DAB0E671A88D1610032FA45 /* Build configuration list for PBXNativeTarget "ToDoList Fire" */;
+			buildPhases = (
+				2DAB0E411A88D1610032FA45 /* Sources */,
+				2DAB0E421A88D1610032FA45 /* Frameworks */,
+				2DAB0E431A88D1610032FA45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ToDoList Fire";
+			productName = "ToDoList Fire";
+			productReference = 2DAB0E451A88D1610032FA45 /* ToDoList Fire.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2DAB0E5C1A88D1610032FA45 /* ToDoList FireTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DAB0E6A1A88D1610032FA45 /* Build configuration list for PBXNativeTarget "ToDoList FireTests" */;
+			buildPhases = (
+				2DAB0E591A88D1610032FA45 /* Sources */,
+				2DAB0E5A1A88D1610032FA45 /* Frameworks */,
+				2DAB0E5B1A88D1610032FA45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DAB0E5F1A88D1610032FA45 /* PBXTargetDependency */,
+			);
+			name = "ToDoList FireTests";
+			productName = "ToDoList FireTests";
+			productReference = 2DAB0E5D1A88D1610032FA45 /* ToDoList FireTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2DAB0E3D1A88D1610032FA45 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = PanaCloud;
+				TargetAttributes = {
+					2DAB0E441A88D1610032FA45 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					2DAB0E5C1A88D1610032FA45 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 2DAB0E441A88D1610032FA45;
+					};
+				};
+			};
+			buildConfigurationList = 2DAB0E401A88D1610032FA45 /* Build configuration list for PBXProject "ToDoList Fire" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2DAB0E3C1A88D1610032FA45;
+			productRefGroup = 2DAB0E461A88D1610032FA45 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2DAB0E441A88D1610032FA45 /* ToDoList Fire */,
+				2DAB0E5C1A88D1610032FA45 /* ToDoList FireTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2DAB0E431A88D1610032FA45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DAB0E531A88D1610032FA45 /* Main.storyboard in Resources */,
+				2DAB0E581A88D1610032FA45 /* LaunchScreen.xib in Resources */,
+				2DAB0E551A88D1610032FA45 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DAB0E5B1A88D1610032FA45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2DAB0E411A88D1610032FA45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D9F53501ADBF3B3000AB935 /* SignupViewController.swift in Sources */,
+				2DAB0E4B1A88D1610032FA45 /* AppDelegate.swift in Sources */,
+				2DAB0E851A88DD330032FA45 /* AddTaskViewController.swift in Sources */,
+				2DAB0E4E1A88D1610032FA45 /* ToDoList_Fire.xcdatamodeld in Sources */,
+				2DAB0E811A88D4E00032FA45 /* FireBaseSingleton.swift in Sources */,
+				2D9F534E1ADBF31C000AB935 /* LoginViewController.swift in Sources */,
+				2DAB0E7D1A88D2FF0032FA45 /* ToDoListTableViewController.swift in Sources */,
+				2DAB0E871A88E5670032FA45 /* EditTaskViewController.swift in Sources */,
+				2DAB0E831A88D59A0032FA45 /* TaskData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DAB0E591A88D1610032FA45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DAB0E641A88D1610032FA45 /* ToDoList_FireTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2DAB0E5F1A88D1610032FA45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DAB0E441A88D1610032FA45 /* ToDoList Fire */;
+			targetProxy = 2DAB0E5E1A88D1610032FA45 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2DAB0E511A88D1610032FA45 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DAB0E521A88D1610032FA45 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2DAB0E561A88D1610032FA45 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DAB0E571A88D1610032FA45 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2DAB0E651A88D1610032FA45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2DAB0E661A88D1610032FA45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2DAB0E681A88D1610032FA45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "ToDoList Fire/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ToDoList Fire/ToDoList Fire-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2DAB0E691A88D1610032FA45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "ToDoList Fire/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ToDoList Fire/ToDoList Fire-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		2DAB0E6B1A88D1610032FA45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ToDoList FireTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToDoList Fire.app/ToDoList Fire";
+			};
+			name = Debug;
+		};
+		2DAB0E6C1A88D1610032FA45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ToDoList FireTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToDoList Fire.app/ToDoList Fire";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2DAB0E401A88D1610032FA45 /* Build configuration list for PBXProject "ToDoList Fire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DAB0E651A88D1610032FA45 /* Debug */,
+				2DAB0E661A88D1610032FA45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DAB0E671A88D1610032FA45 /* Build configuration list for PBXNativeTarget "ToDoList Fire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DAB0E681A88D1610032FA45 /* Debug */,
+				2DAB0E691A88D1610032FA45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DAB0E6A1A88D1610032FA45 /* Build configuration list for PBXNativeTarget "ToDoList FireTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DAB0E6B1A88D1610032FA45 /* Debug */,
+				2DAB0E6C1A88D1610032FA45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2DAB0E4C1A88D1610032FA45 /* ToDoList_Fire.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2DAB0E4D1A88D1610032FA45 /* ToDoList_Fire.xcdatamodel */,
+			);
+			currentVersion = 2DAB0E4D1A88D1610032FA45 /* ToDoList_Fire.xcdatamodel */;
+			path = ToDoList_Fire.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2DAB0E3D1A88D1610032FA45 /* Project object */;
+}
